@@ -71,3 +71,6 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
+
+# Disable Mouse Cursor
+TW_INPUT_BLACKLIST := "hbtp_vm"
