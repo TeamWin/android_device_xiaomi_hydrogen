@@ -71,6 +71,7 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
 
 # Init properties, ex. model info
 TARGET_INIT_VENDOR_LIB := libinit_hydrogen
